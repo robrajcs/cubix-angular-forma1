@@ -82,7 +82,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "name": "robrajcs",
+            "email": "robrajcs@gmail.com"
+          }
         }
       }
     }
